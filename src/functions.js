@@ -13,7 +13,10 @@
 */
 
 //your code here
+function uselessFunction(){
 
+
+}
 //end your code
 
 var bar = 'not a function';
@@ -30,7 +33,11 @@ var barType = typeof bar;
 */
 
 //your code here
+function twiceVar(bar){
+	bar = bar * 2;
+	return 0;
 
+}
 //end your code
 
 /**
