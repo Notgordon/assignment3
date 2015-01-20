@@ -31,12 +31,12 @@ false otherwise
 */
 function isString(b) {
   //your code here
-  if (b == String(b))
+  if (b[b.length-1] != null)
   {
 	return true;
   }
   
-  else if (b != String(b))
+  else if (b == null)
   {
     return false;
   }
