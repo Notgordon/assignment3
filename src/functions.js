@@ -16,7 +16,7 @@
 function uselessFunction(){
 
 
-}
+return null;}
 //end your code
 
 var bar = 'not a function';
@@ -34,8 +34,13 @@ var barType = typeof bar;
 
 //your code here
 function twiceVar(bar){
-	bar = bar * 2;
-	return 0;
+	
+	float bar[] = new float[bar.length];
+	for( int i = 0; i < bar.length; i++)
+	{
+		bar[i] = bar[i] * 2;
+	}
+	return true;
 
 }
 //end your code
