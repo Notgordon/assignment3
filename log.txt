@@ -1,2 +1,7 @@
 Start: Mon, 19 Jan 2015 21:01:30 -0800
 End: Mon, 19 Jan 2015   22:24:47 -0800
+Task: Set up environment and got started with variables.
+
+Start: Tue, 20 Jan 2015 10:20:30 -0800
+End: Tue, 20 Jan 2015  
+Task: More work on Var 

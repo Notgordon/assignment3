@@ -31,14 +31,15 @@ false otherwise
 */
 function isString(b) {
   //your code here
-  if (b[b.length-1] != null)
+  
+  if (b === String(b) )
   {
-	return true;
+    return true;
   }
   
-  else if (b == null)
+  else if (b == null || b === parseInt(b) || b == String(b) && b[b.length-1] != null)
   {
-    return false;
+	return false;
   }
   //end your code
 }
@@ -52,12 +53,12 @@ return true if c is null, false otherwise
 */
 function isNull(c) {
   //your code here
-  if (c == null)
+  if (c === null)
   {
     return true;
   }
   
-  else
+  else 
   {
     return false;
   }
