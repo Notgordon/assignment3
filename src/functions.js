@@ -34,8 +34,9 @@ var barType = typeof bar;
 */
 
 //your code here
-function twiceVar(bar){
+function (bar){
 	
+	barType = float;
 	float bar[] = new float bar[bar.length];
 	for( int i = 0; i < bar.length; i++)
 	{

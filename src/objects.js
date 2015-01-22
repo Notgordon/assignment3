@@ -8,9 +8,10 @@
 * @return {object} - the object literal
 */
 
+
 function returnObjectLiteral() {
   //your code here
-  return undefined; //Modify ONLY this line
+  return snack = {type:"Goldfish", brand:"Pepperidge Farm", flavor:"Cheddar", count:2000}; //Modify ONLY this line
   //end your code
 }
 
@@ -38,6 +39,12 @@ function returnObjectLiteral() {
 */
 
 //your code here
+function MessageLog(user,messageText, direction) {
+	this.user = user;
+	this.messageText = messageText;
+	this.direction = direction;
+
+}
 
 //end your code
 
@@ -57,5 +64,5 @@ function returnObjectLiteral() {
 */
 
 //your code here
-
+var BlackHatGuy = new MessageLog;
 //end your code
