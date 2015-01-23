@@ -34,17 +34,7 @@ var barType = typeof bar;
 */
 
 //your code here
-function (bar){
-	
-	barType = float;
-	float bar[] = new float bar[bar.length];
-	for( int i = 0; i < bar.length; i++)
-	{
-		bar[i] = bar[i] * 2;
-	}
-	return true;
 
-}
 //end your code
 
 /**
