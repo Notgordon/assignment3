@@ -34,16 +34,22 @@ var barType = typeof bar;
 */
 
 //your code here
-function multiply(barType) {
+function multiply(doubleArray) {
 //While loop? But how do I initialize my starting point?
-//for (bar = 0; bar < bar.length; bar++)
-//{
-	if ( barType[bar] * 2 == barType[bar] * 2)
+	for (var i = 0; i < doubleArray.length; i++)
 	{
-		barType[bar] = barType[bar] *2;
+		if ( doubleArray[i] * 2 == doubleArray[i] * 2)
+		{
+			doubleArray[i] = doubleArray[i] *2;
+
+		}
+		
+		else
+		{
+			return false;
+		}
 	}
-	return true;
-	//}
+return true;
 }
 bar = multiply;
 //end your code
@@ -81,5 +87,8 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+function parseGit()
+{
 
+}
 //end your code
