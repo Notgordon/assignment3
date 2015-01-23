@@ -29,20 +29,21 @@ var barType = typeof bar;
 * @param {float[]} doubleArray - an array of floating point numbers.
 * The function should multiply every number in the array by 2 (this should
 * change the content of the array).
-* @return {boolean} - true if the operation was sucessful, false otherwise.
+* @return {boolean} - true if the operation was successful, false otherwise.
 * This should return false if any value in the array cannot be doubled.
 */
 
 //your code here
-function multiply(bar) {
-if ( bar * 2 == bar * 2)
-{
-	bar *2;
-}
-return true;
-
-
-
+function multiply(barType) {
+//While loop? But how do I initialize my starting point?
+//for (bar = 0; bar < bar.length; bar++)
+//{
+	if ( barType[bar] * 2 == barType[bar] * 2)
+	{
+		barType[bar] = barType[bar] *2;
+	}
+	return true;
+	//}
 }
 bar = multiply;
 //end your code
