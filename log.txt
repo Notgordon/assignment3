@@ -8,4 +8,14 @@ Task: More work on Var.Var Done.
 
 Start: Wed, 21 Jan 2015 20:30:01 -0800
 End:   Wed, 21 Jan 2015 21:45:30 -0800
-Task: Find out what's wrong with functions.js. Work on objects. Test updated. 
+Task: Find out what's wrong with functions.js. Work on objects. Test updated.
+
+
+Start: Thurs, 22 Jan 2015 21:01:15 -0800
+End:   Thurs, 22 Jan 2015 21:42:20 -0800
+Task: Fixed function.  
+
+
+Start: Fri, 24 Jan 2015 11:30:02 -0800
+End:   Fri, 24 Jan 2015 12:36:00 -0800
+Task: Studied and attempted bar.

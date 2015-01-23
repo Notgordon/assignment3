@@ -34,7 +34,17 @@ var barType = typeof bar;
 */
 
 //your code here
+function multiply(bar) {
+if ( bar * 2 == bar * 2)
+{
+	bar *2;
+}
+return true;
 
+
+
+}
+bar = multiply;
 //end your code
 
 /**
