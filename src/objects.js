@@ -46,6 +46,11 @@ function MessageLog(user,messageText, direction) {
 
 }
 
+MessageLog.logMessage()
+{
+	
+}
+
 //end your code
 
 /**

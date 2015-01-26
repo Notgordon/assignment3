@@ -19,3 +19,13 @@ Task: Fixed function.
 Start: Fri, 24 Jan 2015 11:30:02 -0800
 End:   Fri, 24 Jan 2015 12:36:00 -0800
 Task: Studied and attempted bar.
+
+
+Start: Fri, 24 Jan 2015 14:15:23 -0800
+End:   Fri, 24 Jan 2015 15:21:18 -0800
+Task: Work on multiply func before and after appointment.
+
+
+Start: Sun, 25 Jan 2015 3:15:00 -800
+End: 
+Task: Progress made on ParseGit
