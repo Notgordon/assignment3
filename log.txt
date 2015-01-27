@@ -26,6 +26,10 @@ End:   Fri, 24 Jan 2015 15:21:18 -0800
 Task: Work on multiply func before and after appointment.
 
 
-Start: Sun, 25 Jan 2015 3:15:00 -800
-End: 
+Start: Sun, 25 Jan 2015 15:15:00 -800
+End: Sun, 25 Jan 2015 16:22:08 -0800
 Task: Progress made on ParseGit
+
+Start: Mon, 26 Jan 2015 19:50:15 -800
+End: Mon, 26 Jan 2015 22:06:00 -0800
+Task: Worked on object.js to no avail

@@ -39,17 +39,22 @@ function returnObjectLiteral() {
 */
 
 //your code here
-function MessageLog(user,messageText, direction) {
+function MessageLog(user) {
 	this.user = user;
-	this.messageText = messageText;
-	this.direction = direction;
-
-}
-
-MessageLog.logMessage()
-{
+	
+	this.logMessage = function (messageText, direction){
+			this.messageText = messageText;
+			this.direction = direction;
+	
+	}
+	
+	
 	
 }
+
+
+
+
 
 //end your code
 
@@ -59,7 +64,12 @@ MessageLog.logMessage()
 * received.
 */
 //your code here
-
+MessageLog.lastRecievedMessage = function (){
+if (logMessage.direction == 1)
+{
+	MessageLog.splice(0, 0, logMessage.messageText)
+}
+}
 //end your code
 
 /**

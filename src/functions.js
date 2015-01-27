@@ -88,16 +88,16 @@ function GitLog(hash, date, message) {
 
 //your code here
 
-logArray = new GitLog; //Creates array of Git log messages
+logArray = new GitLog; // creates logArray
 
 function parseGit(logArray)
 {
-	var GitLog = new Array(logArray.length);
+	var GitLog = new Array(logArray.length);//Creates array of Git log messages
 	
-	for (var i = 0; i < logArray.length; i++)
+	for (var i = 0; i < logArray.length; i++) //fill GitLog with log arrays
 	{
-		GitLog[i] = {hash:logArray[i].slice(0,7),date:logArray[i].slice(9,32),message: logArray[i].slice(40,logArray.lastIndexOf())}
-	
+		GitLog[i] = {hash:logArray[i].slice(0,7),date:logArray[i].slice(8).split(' ')[1],message: logArray[i].slice(40,logArray.lastIndexOf())}
+		
 	}
 	
 	
