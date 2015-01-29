@@ -48,6 +48,7 @@ function MessageLog(user) {
 	this.snum = null;
 	
 	
+<<<<<<< HEAD
 	this.logMessage = function (messageText, direction){
 			
 			if (sent.length == 5 && direction == 0)
@@ -82,6 +83,28 @@ function MessageLog(user) {
 		return sent[4-n];
 	}
 	
+=======
+	var sent = new Array(4);
+	this.received = null;
+	
+	this.logMessage = function (messageText, direction){
+			if (sent.length == 4 && direction == 0)
+			{
+				sent.shift();
+			}
+			
+			if (direction == 0)
+			{
+				sent.push(messageText);
+			}
+			
+			else if (direction == 1)
+			{
+				this.received = messageText;
+			}
+	}
+	
+>>>>>>> 6cc1a2784144df29c9e7da33983c93244fc05ecf
 }
 
 
