@@ -42,13 +42,25 @@ function returnObjectLiteral() {
 function MessageLog(user) {
 	this.user = user;
 	
+	var sent = new Array(4);
+	this.received = null;
+	
 	this.logMessage = function (messageText, direction){
-			this.messageText = messageText;
-			this.direction = direction;
-	
+			if (sent.length == 4 && direction == 0)
+			{
+				sent.shift();
+			}
+			
+			if (direction == 0)
+			{
+				sent.push(messageText);
+			}
+			
+			else if (direction == 1)
+			{
+				this.received = messageText;
+			}
 	}
-	
-	
 	
 }
 
@@ -64,12 +76,9 @@ function MessageLog(user) {
 * received.
 */
 //your code here
-MessageLog.lastRecievedMessage = function (){
-if (logMessage.direction == 1)
-{
-	MessageLog.splice(0, 0, logMessage.messageText)
-}
-}
+MessageLog.prototype.lastReceivedMessage = function (){
+
+return this.received;}
 //end your code
 
 /**
