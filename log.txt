@@ -33,3 +33,6 @@ Task: Progress made on ParseGit
 Start: Mon, 26 Jan 2015 19:50:15 -800
 End: Mon, 26 Jan 2015 22:06:00 -0800
 Task: Worked on object.js to no avail
+
+Start: Wed, 28 Jan 2015 17:35:23 -800
+End: Wed, 28 Jan 2015 19:50:12 -800

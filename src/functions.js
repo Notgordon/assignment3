@@ -96,8 +96,8 @@ function parseGit(logArray)
 	
 	for (var i = 0; i < logArray.length; i++) //fill GitLog with log arrays
 	{
-		GitLog[i] = {hash:logArray[i].slice(0,7),date:logArray[i].slice(8).split(' ')[1],message: logArray[i].slice(40,logArray.lastIndexOf())}
-		
+		GitLog[i] = {hash:logArray[i].slice(0,7),date:Date(),message: logArray[i].slice(40,logArray.lastIndexOf())}
+		//new GitLog('3782618', new Date('Wed, 7 Jan 2015 21:42:26 -0800'), "Initial commit" );
 	}
 	
 	
